@@ -22,7 +22,7 @@ class CommentsController < ApplicationController
 
     @comment.title = params[:title]
     @comment.body = params[:body]
-    @comment.user_id = params[:user_id]
+    
 
     save_status = @comment.save
 
@@ -51,7 +51,7 @@ class CommentsController < ApplicationController
 
     @comment.title = params[:title]
     @comment.body = params[:body]
-    @comment.user_id = params[:user_id]
+    
 
     save_status = @comment.save
 
